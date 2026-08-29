@@ -1,9 +1,40 @@
+/* styles.css */
 
+/* Style the body elements */
 body {
-  background-color: lightblue;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Style main headings */
 h1 {
-  color: navy;
-  margin-left: 20px;
+    color: #333333;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* A reusable class for buttons */
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
 }
